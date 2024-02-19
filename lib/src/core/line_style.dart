@@ -40,6 +40,9 @@ class LineStyle {
   /// Progress value of the active line. Hence, values range from 0 to 1.
   final double? progress;
 
+  /// Only for [LineType.normal]
+  final BorderRadius? borderRadius;
+
   const LineStyle({
     Key? key,
     this.lineType = LineType.dotted,
@@ -54,6 +57,7 @@ class LineStyle {
     this.unreachedLineType,
     this.progressColor,
     this.progress,
+    this.borderRadius,
   })  : assert(
           progressColor == null || progress != null,
           'progress should be defined to use progressColor',

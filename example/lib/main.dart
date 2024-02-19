@@ -171,6 +171,7 @@ class _MyAppState extends State<MyApp> {
                     lineSpace: 4,
                     lineType: LineType.normal,
                     defaultLineColor: Colors.purple.shade300,
+                    borderRadius: BorderRadius.zero,
                     progress: progress,
                     // progressColor: Colors.purple.shade700,
                   ),

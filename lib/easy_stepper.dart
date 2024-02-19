@@ -488,6 +488,7 @@ class _EasyStepperState extends State<EasyStepper> {
               spacing: lineStyle.lineSpace,
               axis: axis,
               lineType: lineStyle.lineType,
+              borderRadius: lineStyle.borderRadius,
             ),
           ),
         ),
@@ -507,6 +508,7 @@ class _EasyStepperState extends State<EasyStepper> {
           index > widget.activeStep - 1 && lineStyle.unreachedLineType != null
               ? lineStyle.unreachedLineType!
               : lineStyle.lineType,
+      borderRadius: lineStyle.borderRadius,
     );
   }
 }

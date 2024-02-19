@@ -1,7 +1,8 @@
 ## 0.8.4
 
 ### Monday, 19th Feb, 2024
-* Commented lottie deps & border radius on `LineType.normal`.
+* Commented lottie deps 
+* add border radius for `LineType.normal`.
 
 
 ## 0.8.3
