@@ -54,7 +54,7 @@ class EasyLine extends StatelessWidget {
       decoration: lineType == LineType.normal
           ? BoxDecoration(
               color: color,
-              borderRadius: BorderRadius.circular(100),
+              // borderRadius: BorderRadius.circular(100),
             )
           : null,
       child: lineType == LineType.dotted
